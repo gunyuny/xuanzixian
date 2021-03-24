@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/main.css"/>
+		<title></title>
+	</head>
+	<body>
+		<div id="body">
+			<div id="welcome">
+				欢迎你,{{name}}
+			</div>
+			<div id="exit" v-on:click="exit()">
+				[退出]
+			</div>
+			<div id="box">
+				<div id="meun">
+					<div 
+					class="title" v-for="(value, i) in title" v-on:click ="choose(i)" v-bind:class="msg"
+					>{{value}}</div>
+				</div>
+				<div id="operation">
+					<div id="op_title">数分空间</div>
+					<img id="publish" src="img/main_pyq.png" title="发布">
+					<div id="op_text">
+						
+					</div>
+				</div>
+				<div id="friend">
+					
+				</div>
+			</div>
+		</div>
+	</body>
+	<script src="js/vue.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/main.js" type="text/javascript" charset="utf-8"></script>
+</html>

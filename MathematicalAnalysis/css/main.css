@@ -1,0 +1,102 @@
+@charset "utf-8";
+
+*{margin: 0;padding: 0;}
+
+#body{
+	width: 100%;
+	height: 1000px;
+}
+
+#box{
+	position: absolute;
+	width: 100%;
+	height: 80%;
+	top: 10%;
+}
+
+
+#meun{
+	border: silver solid 1px;
+	width: 20%;
+	position: absolute;
+	height: 100%;
+	left: 5%;
+}
+
+#operation{
+	border: silver solid 1px;
+	border-left: none ;
+	width: 50%;
+	height: 100%;
+	position: absolute;
+	left: 25%;
+}
+
+#friend{
+	border-left: none;
+	border: silver solid 1px;
+	width: 20%;
+	height: 100%;
+	position: absolute;
+	left: 75%;
+	background-color: black;
+}
+
+#welcome{
+	position: absolute;
+	right: 5%;
+	top: 2%;
+}
+
+#exit{
+	position: absolute;
+	right: 1%;
+	top: 2%;
+}
+
+#exit:hover{
+	transform: scale(1.05);
+	cursor: pointer;
+}
+
+#op_title{
+	position: absolute;
+	top: 2%;
+	left: 10%;
+	font-size: 1.5rem;
+}
+
+#op_text{
+	position: absolute;
+	height: 90%;
+	width: 100%;
+	background-color: red;
+	bottom: 0%;
+}
+
+#publish{
+	position: absolute;
+	top: 3%;
+	right: 2%;
+	width: 25px;
+	height: 25px;
+}
+
+#publish:hover{
+	transform: scale(1.05);
+	cursor: pointer;
+}
+
+.title{
+	font-size: 20px;
+	text-align: center;
+	margin-top: 10%;
+	margin-left: 40%;
+	height: 1.875rem;
+	cursor: pointer;
+	border-radius: 0% 100% 100% 0%;
+}
+
+.turnred{
+	background-color: red;
+}
